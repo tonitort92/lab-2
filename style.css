@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+:root{
+    --blue:#43a3e6;
+    --darkBlue:#192129;
+    --black: #000;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: roboto;
+  line-height: 3.5em;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: roboto condensed;
+}
+
+h1{
+    font-size: 9em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 4em;
+    text-shadow: #020819 8px -20px 9px;
+}
+
+h3{
+    font-size: 4.2em;
+    text-align: center;
+    text-transform: 2.5em; 
+}
+
+h4{
+    font-size: 1.5em;
+    text-align: 0.4px;
+    text-transform: 1em;
+}
+
+h5{
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+.header-styles{
+    background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
+    background-position: 0,0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+
+}
+
+.nav-bar{
+    background-color: var(--darkBlue);
+    text-decoration: none;
+    font-size: 2em;;
+}
+
+.nav-bar ul{
+    list-style: none;
+}
+
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+}
+
+.quote{
+    font-size: 2.5em;
+}
+
+.dark-background{
+    background-color: var(--darkBlue);
+    color: white;
+}
+
+.text{
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.link-btn{
+    background-color: var(--blue);
+    color: white;
+    font-family: Roboto Condensed;
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+
+.service-box{
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.service-box img {
+   width: 125px;
+  }
+
+#general-information{}
+
+#structure{}
+
+#team{
+    background-color: var(--darkBlue);
+}
+
+#team .section-text {
+    font-size: 1.9em;
+    text-align: center;
+
+}
+
+#team .member-name {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#team img {
+    width: 250px;
+    height: 180px;
+  }
+
+#schedule{}
+
+#footer-styles{
+    background-color: var(--darkBlue);
+    color: white;
+    font-size: 1.9em;
+    text-align: center;
+}
+
+.adress{ 
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+#footer-styles a{
+    color: var(--blue);
+    text-decoration: none;
+}
+
+#footer-styles ul{
+    list-style: none;
+}
